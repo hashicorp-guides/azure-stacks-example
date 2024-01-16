@@ -10,5 +10,11 @@ required_providers {
   }
 }
 
-provider "azurerm" "this" {}
+provider "azurerm" "this" {
+  config {
+    use_oidc = true
+    oidc_token_file_path = var.identity_token_file
+  }
+}
+
 provider "http" "this" {}
