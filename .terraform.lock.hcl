@@ -1,0 +1,42 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/hashicorp/azurerm" {
+  version = "3.87.0"
+  hashes = [
+    "h1:Mjidmu1JGPnPIrkRZqIpOGzg5bad0kMXO983pLoOET8=",
+    "h1:PfnDrSQo5bwN6KV1nVj+5MHnNxeD3bglvFahgJctQHY=",
+    "zh:1547ed020fa6ca25d940b28601442c7e4495fdea9fb1ead7affb867383f5f40b",
+    "zh:325e6d636b5ab09a24837194647617c9fabd42f0fb2c7e18ae8d2a8b2d890a55",
+    "zh:3abb0074de1dc3b723f8c209354ba93e717ba52003847484b19369e8f54735f4",
+    "zh:52d2b1700108d5093113a986aa10757834e48083c1358a2c7d8d0360e2689390",
+    "zh:5fe377d5cc80e26766ff411dbcb227728709fe34b14ad106c9e374df653086a4",
+    "zh:747fe80de4fb88b17cac93ff05d62909d3563325c8ed5a461641b48579c328f8",
+    "zh:b40142e4041b7f000ab2dda58309755395a4018d5d00218f6a601f737389865a",
+    "zh:bca622818c221cec81d636879e376c15696a8d091703298195d728b3c1eae7db",
+    "zh:bfaecd203137ff9eb3228b1cbd3191e1d84d7c019855eb5f3071bbf6eb060a51",
+    "zh:d197f04b54f2be07f827ced220954d723039c84793a4ce91894b622982c25811",
+    "zh:e831601ea1f67c5e745946ed3ac0cac772ed8e95ca7d7314d3f0ed631e6eefb1",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/http" {
+  version = "3.4.1"
+  hashes = [
+    "h1:RLJ1zsc2ScUFapTANM91XHyAY7715gP3yPlBOcaBKuk=",
+    "h1:WHowkin6m5sX2+SjPVI3kMOkWpFQf8jd2cDlZa0NF/4=",
+    "zh:2a79832069a34e88ec997fb8d2c2bdad6f40bfe93a4ae5e6e7f0caf4eea2a9e5",
+    "zh:37d3611857ab207e1565e441a2df9020b1326b7df31e5656165cb6817306494b",
+    "zh:48cc974b12544be18c18bfcb5ea21a4818d03b897e96fb9b4d0d9303883cb3fa",
+    "zh:4b8da2ffe868082830173fdcc8632e2705918e0396c72158d7822650bb1d3bf6",
+    "zh:78d5eefdd9e494defcb3c68d282b8f96630502cac21d1ea161f53cfe9bb483b3",
+    "zh:8148614299a21be04dd11268047e110df3ce9ef585d6240bed2f196839946efa",
+    "zh:a6d583cb70b1355fbc7b1c2cffaa53e4703b04ced9d0ecf78708129ce7072128",
+    "zh:a95f770e8913dd48fde8836cf993fafdbf7da5308a6fbd3d455cb10737742990",
+    "zh:b36784e6602e6ae7ba67560ebcfd055b4448cb0edf9bf35744c2f32ddbd8fa2d",
+    "zh:c23b37fd9e481269fc55735b24c7e8877057c08b42671c796816409d54486a1c",
+    "zh:df07252b27120020d91d7ad11f7ea92832d8df2e81b55a658ac1eb93dc6b8d18",
+    "zh:e44dc5a1fd5995bfd21d385949d539c619e8b37b69875bd92ad4aa18e2435722",
+  ]
+}
