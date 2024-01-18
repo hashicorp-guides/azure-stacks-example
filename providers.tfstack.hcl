@@ -10,9 +10,14 @@ required_providers {
   }
 }
 
+variable "identity_token_file" {
+  type = string
+}
+
+
 provider "azurerm" "this" {
   config {
-    use_oidc = true
+    use_oidc             = true
     oidc_token_file_path = var.identity_token_file
   }
 }
