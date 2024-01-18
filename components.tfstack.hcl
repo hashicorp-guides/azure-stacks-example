@@ -35,6 +35,6 @@ component "compute" {
 
   providers = {
     azurerm = provider.azurerm.this
-    http    = provider.http.this
+    tls     = provider.tls.this
   }
 }

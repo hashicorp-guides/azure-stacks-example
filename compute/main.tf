@@ -1,6 +1,7 @@
-data "http" "ssh_key" {
-  url = var.public_ssh_key_url
+resource "tls_private_key" "example" {
+  algorithm = "RSA"
 }
+
 
 resource "azurerm_linux_virtual_machine" "example" {
   name                = "example-vm"
@@ -26,6 +27,6 @@ resource "azurerm_linux_virtual_machine" "example" {
 
   admin_ssh_key {
     username   = "adminuser"
-    public_key = data.http.ssh_key.body
+    public_key = tls_private_key.example.public_key_openssh
   }
 }

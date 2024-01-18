@@ -4,9 +4,9 @@ required_providers {
     version = "~> 3.87.0"
   }
 
-  http = {
-    source  = "hashicorp/http"
-    version = "~> 3.4.1"
+  tls = {
+    source  = "hashicorp/tls"
+    version = "~> 4.0.5"
   }
 }
 
@@ -30,4 +30,4 @@ provider "azurerm" "this" {
   }
 }
 
-provider "http" "this" {}
+provider "tls" "this" {}
