@@ -6,7 +6,7 @@ identity_token "azurerm" {
 }
 
 deployment "production" {
-  variables = {
+  inputs = {
     identity_token = identity_token.azurerm.jwt
 
     client_id       = "<Set to your Azure Client ID>"
