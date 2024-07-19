@@ -7,7 +7,7 @@ identity_token "azurerm" {
 
 deployment "production" {
   variables = {
-    identity_token_file = identity_token.azurerm.jwt_filename
+    identity_token = identity_token.azurerm.jwt
 
     client_id       = "<Set to your Azure Client ID>"
     subscription_id = "<Set to your Azure Subscription ID>"
